@@ -5,30 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promosi</title>
     <style>
-        table{
-            height: 200;
-            width: 400;
+        img.center{
+			display: block;
+			margin: 0 auto;
+		}
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border: 1px solid;
+            text-align: center;
+        }
+        tr, td{
+            height: 50px;
+            border: 1px solid;
+            text-align: center;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
-<body bgcolor="PowderBlue">
-    <center>
-		<img src="https://cdn.discordapp.com/attachments/587760316860071942/770210936845369344/cover-removebg-preview.png" width="400" height="150" alt="Chou Delivery Logo">
-	</center>
+<body style="background-color: powderblue;">
+    <img class="center" src="https://cdn.discordapp.com/attachments/587760316860071942/770210936845369344/cover-removebg-preview.png" alt="Chou Delivery Logo" width="400" height="150">
 	<nav>
-		<p align="center">
-			<font size=5px>
-				<a href="homepage.html">Home</a>	|
-				<a href="cabang.html">Cabang Perusahaan</a>	|
-				<a href="promosi.html">Promosi</a>	|
-				<a href="contact.html">Kontak</a>
-			</font>
+		<p style="text-align: center; font-size: 20px;">
+			<a href="homepage.html">Home</a>	|
+			<a href="cabang.html">Cabang Perusahaan</a>	|
+			<a href="promosi.html">Promosi</a>	|
+			<a href="contact.html">Kontak</a>
 		</p>
 	</nav>
-    <hr>
-    <center>
-        <table border=1 cellpadding="5">
-        <caption><h2><font face="Arial">Metode Antar Barang</font></h2></caption>
+    <hr/>
+        <table class="center">
+        <caption><h2>Metode Antar Barang</h2></caption>
             <tr>
                 <td>#</td>
                 <td>Nama Metode</td>
@@ -60,9 +70,9 @@
                 <td>Rp. 7500</td>
             </tr>
         </table>
-        <br><br>
-        <table border=1 cellpadding="5">
-            <caption><h2><font face="Arial">Paket Promosi</font></h2></caption>
+        <br/><br/>
+        <table class="center">
+            <caption><h2>Paket Promosi</h2></caption>
                 <tr>
                     <td>Level</td>
                     <td>Deskripsi</td>
@@ -100,8 +110,7 @@
                     <td>Berlaku selama 2 bulan setelah mendapatkan promosi</td>
                 </tr>
             </table>
-            <br>
-            Note: Apabila telah mendapatkan promosi level 4, maka selanjutnya akan kembali ke level 1.
-    </center>
+            <br/>
+            <p style="text-align: center;">Note: Apabila telah mendapatkan promosi level 4, maka selanjutnya akan kembali ke level 1.</p>
 </body>
 </html>
